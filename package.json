@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "json-server --watch todo.json --port 4000",
+    "client": "npm start --prefix todo_app",
+    "dev": "concurrently \"npm run server \"\"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/IbrahimBagalwa/todo-app#readme",
   "dependencies": {
+    "concurrently": "^6.0.0",
     "currently": "0.0.8"
   }
 }
