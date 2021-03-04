@@ -1,0 +1,22 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbrahimBagalwa/todo-app.git"
+  },
+  "author": "Ibrahim Bagalwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IbrahimBagalwa/todo-app/issues"
+  },
+  "homepage": "https://github.com/IbrahimBagalwa/todo-app#readme",
+  "dependencies": {
+    "currently": "0.0.8"
+  }
+}
