@@ -11,7 +11,7 @@ export class AddTodo extends Component {
     }
     onChange = (e)=>this.setState({[e.target.name]: e.target.value})
     render() {
-        console.log(this.state.title)
+        // console.log(this.state.title)
         return (
             <form className="input_text"
                 onSubmit={this.onSubmit}

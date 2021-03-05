@@ -5,6 +5,7 @@
     padding: 8px;
     margin-left: 30%;
     margin-right: 30%;
+    box-shadow: 8px 8px 2px slategray;
 }
 .btn{
     background: red;

@@ -1,6 +1,7 @@
 *{
   margin: auto;
   box-sizing: border-box;
+  background-color: darkgray;
 }
 .AddTodo{
   margin-left: 40%;
