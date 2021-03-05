@@ -1,0 +1,23 @@
+.props_titre{
+    border: 1px black solid; 
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.btn{
+    background: red;
+    border: none;
+    margin: 5px 10px;
+    border-radius: 100%;
+    color: white;
+    cursor: pointer;
+}
+.chkbx{
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.title{
+    margin-left: 10px;
+}

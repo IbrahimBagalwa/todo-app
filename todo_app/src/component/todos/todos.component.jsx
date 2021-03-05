@@ -1,10 +1,15 @@
 import React, { Component } from 'react'
+import TodoItem from '../todoItem/todoItem.component'
 
 export class Todos extends Component {
     render() {
 
         return this.props.todos.map((todo)=>[
-            <h1>Bonjour</h1>
+            <TodoItem 
+            key={todo.id} 
+            todo={todo}
+            markcomplited = {this.props.markcomplited}
+            />
     ])
         }
 }

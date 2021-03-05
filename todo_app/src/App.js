@@ -25,15 +25,23 @@ export class App extends Component {
         }
       ]
     }
-      
-    
+  }
+  markcomplited = (id)=>{
+    this.setState({todos:this.state.todos.map(todo=>{
+      if(todo.id === id){
+        todo.complited =! todo.complited
+      }
+    })})
   }
   render() {
     // console.log(this.state.todos)
     return (
       <div>
-        <h4 style={{textAlign:'center', padding:6}}>TODO APP</h4>
-        <Todos todos = {this.state.todos}/>
+        <h4 style={{textAlign:'center', padding:6, marginBottom:'10px'}}>TODO APP</h4>
+        <Todos 
+        markcomplited = {this.markcomplited}
+        todos = {this.state.todos}
+        />
       </div>
     )
   }
