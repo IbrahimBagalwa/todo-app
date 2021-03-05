@@ -2,3 +2,8 @@
   margin: auto;
   box-sizing: border-box;
 }
+.AddTodo{
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 10px;
+}
